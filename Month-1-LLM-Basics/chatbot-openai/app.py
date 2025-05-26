@@ -27,4 +27,8 @@ def generate_reply(message: str) -> str:
         return "Sorry, I didn't understand that. Can you try again?"
 
 
-# Chat en
+# Chat endpoint
+@app.post("/chat", response_model=ChatResponse)
+def chat(req: ChatRequest):
+    reply = generate_reply(req.message)
+    return ChatResponse(reply=reply)
