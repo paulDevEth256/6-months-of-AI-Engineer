@@ -2,6 +2,8 @@
 
 This roadmap breaks down Python learning into sequential steps (0 to 15+) from basic to advanced. Each step includes a brief theory overview and illustrative code examples. Use this as a checklist for study and later revision.
 
+This roadmap breaks down Python learning into sequential steps (0 to 15+) from basic to advanced. Each step includes a brief theory overview and illustrative code examples. Use this as a checklist for study and later revision.
+
 ---
 
 ## Step 0 – Setup & Fundamentals
@@ -269,10 +271,10 @@ A().log()
 
 Once core Python is mastered, explore:
 
-* **NumPy**, **pandas** for data manipulation
-* **matplotlib**, **seaborn** for visualization
-* **scikit-learn** for classic ML
-* **TensorFlow**/**PyTorch** for deep learning
-* **FastAPI**/**Flask** for model serving
+- **NumPy**, **pandas** for data manipulation
+- **matplotlib**, **seaborn** for visualization
+- **scikit-learn** for classic ML
+- **TensorFlow**/**PyTorch** for deep learning
+- **FastAPI**/**Flask** for model serving
 
 Use this checklist to track progress, diving deeper into areas as needed during your 6‑month AI/ML journey. Good luck!
